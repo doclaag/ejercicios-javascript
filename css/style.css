@@ -1,0 +1,54 @@
+body {
+  background: rgb(183, 238, 174);
+  background: radial-gradient(
+    circle,
+    rgba(183, 238, 174, 1) 0%,
+    rgba(79, 187, 88, 1) 100%
+  );
+}
+
+input {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 25px;
+}
+
+.cuadrado {
+  background-color: rgba(32, 90, 156, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.circulo {
+  background-color: rgba(32, 90, 156, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.triangulo {
+  background-color: rgba(255, 246, 0, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.trianguloIsosceles {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.resultado {
+  margin-top: 10px;
+  /* opacity: 0.5; */
+  background: rgb(183, 238, 174);
+  text-align: center;
+  border-radius: 20px;
+  border-bottom: 2px solid;
+}
